@@ -1,28 +1,15 @@
+# Phaser 3 and Vite BBTAN(%111) Clone {WIP} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Made with: 
 ![Phaser 3 + Vite.js Template](https://github.com/ourcade/phaser3-vite-template)
 
-## Prerequisites
-
-You'll need [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
-
 ## To Start
-```bash
-npm install
 ```
-
+yarn install
+```
 Start development server:
-
 ```
-npm run start
+yarn start
 ```
-
-## ESLint
-
-This template uses a basic `eslint` set up for code linting to help you find and fix common problems in your JavaScript code.
-
-It does not aim to be opinionated.
-
-[See here for rules to turn on or off](https://eslint.org/docs/rules/).
 
 ## Dev Server Port
 
@@ -31,7 +18,7 @@ You can change the dev server's port number by modifying the `vite.config.js` fi
 ```js
 {
 	// ...
-	server: { host: '0.0.0.0', port: 8000 },
+	server: { host: '0.0.0.0', port: 5173 },
 }
 ```
 
